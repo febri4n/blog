@@ -5,9 +5,10 @@ date:   2019-02-17 11:00:00 +0700
 permalink: /:title
 description: "Tutorial lengkap bagaimana cara menginstall Node.js dengan mudah pada Linux Ubuntu dengan menggunakan node.js version manager."
 excerpt: "Tutorial lengkap bagaimana cara menginstall Node.js dengan mudah pada Linux Ubuntu dengan menggunakan node.js version manager."
-# header:
-#   image: /assets/images/install-nodejs.png
-#   caption: "Photo credit: [**Thumbnaily**](https://thumbnaily.site)"
+header:
+    overlay_color: "#333"
+#  image: /assets/images/tutorial-install-nodejs.png
+#  caption: "Tutorial Install Node.js di Linux Ubuntu"
 toc: true
 toc_label: "Daftar Isi"
 toc_icon: "cog"
