@@ -4,7 +4,7 @@ title:  "Tutorial Belajar Git dan Github untuk Pemula"
 date:   2019-05-07 17:15:00 +0700
 permalink: /:title
 description: "Tutorial belajar Git dan Github, bagaimana cara menggunakan dan Install Git untuk pemula mulai dari instalasi, setting dan cara push ke repository Github di Windows & Linux."
-excerpt: "Tutorial belajar Git dan Github, bagaimana cara menggunakan dan Install Git untuk pemula mulai dari instalasi, setting dan cara push ke repository Github di Windows & Linux."
+excerpt: "Tutorial belajar Git dan Github mulai dari instalasi, setting dan cara push ke repository Github di Windows & Linux."
 header:
   overlay_color: "#333"
 #  image: /assets/images/tutorial-git-github.png
