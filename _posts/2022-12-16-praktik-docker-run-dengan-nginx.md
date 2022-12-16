@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Praktik: Docker Run Dengan Nginx"
-date: 2022-12-07 11:00:00 +0700
+date: 2022-12-16 11:00:00 +0700
 permalink: /:title
 description: "Praktik bagaimana cara menggunakan docker run dengan studi kasus menginstall webserver nginx."
 excerpt: "Praktik bagaimana cara menggunakan docker run dengan studi kasus menginstall 2 webserver nginx dan expose ke dua port berbeda."
@@ -19,6 +19,7 @@ tags :
     - docker
     - linux
     - nginx
+classes: wide
 ---
 ### Perbedaan Docker Run dan Docker Create Container
 
