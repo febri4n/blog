@@ -38,7 +38,7 @@ docker search nginx
 ```bash
 docker run -d --name nginx1 -p 8181:80 nginx:latest
 ```
-Dengan perintah diatas, docker akan membuat container dengan nama nginx1 dengan melakukan download / pull image dari Docker hub untuk di expose ke port 8080.
+Dengan perintah diatas, docker akan membuat container dengan nama nginx1 dengan melakukan download / pull image dari Docker hub untuk di expose ke port 8181.
 
 #### Menjalankan image nginx dengan nama container nginx2 dan expose ke port 8282
 ```bash
