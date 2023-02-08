@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Praktik: Install PosrgreSQL dan DBeaver menggunakan Docker."
+title:  "Praktik: Install PosrgreSQL dan DBeaver menggunakan Docker"
 date: 2023-02-04 00:00:00 +0700
 permalink: /:title
 description: "Praktik: Install PosrgreSQL dan DBeaver menggunakan Docker."

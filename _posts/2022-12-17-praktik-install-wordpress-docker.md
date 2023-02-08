@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Praktik: Install WordPress MariaDB di Docker dengan Spesifikasi Terbatas."
+title:  "Praktik: Install WordPress MariaDB di Docker dengan Spesifikasi Terbatas"
 date: 2022-12-17 00:00:00 +0700
 permalink: /:title
 description: "Praktik: Install WordPress di Docker dengan Spesifikasi Terbatas."
