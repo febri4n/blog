@@ -1,10 +1,10 @@
 ---
 layout: single
-title:  "Praktik: Install PosrgreSQL dan DBeaver menggunakan Docker"
+title:  "Praktik: Install PostgreSQL dan DBeaver menggunakan Docker"
 date: 2023-02-04 00:00:00 +0700
 permalink: /:title
-description: "Praktik: Install PosrgreSQL dan DBeaver menggunakan Docker."
-excerpt: "Menjelaskan Bagaimana Cara Install PosrgreSQL dan DBeaver dengan menggunakan Docker ."
+description: "Praktik: Install PostgreSQL dan DBeaver menggunakan Docker."
+excerpt: "Menjelaskan Bagaimana Cara Install PostgreSQL dan DBeaver dengan menggunakan Docker ."
 header:
     overlay_color: "#333"
 #  image: /assets/images/tutorial-install-nodejs.png
