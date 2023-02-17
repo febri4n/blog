@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Tutorial Mengubah Hostname di Linux Ubuntu"
+title:  "Tutorial Mengubah Hostname di Linux Ubuntu Tanpa Restart"
 date: 2023-02-17 11:00:00 +0700
 permalink: /:title
 description: "Menjelaskan bagaimana cara mudah mengganti hostname pada linux Ubuntu tanpa restart."
