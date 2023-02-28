@@ -52,7 +52,7 @@ sudo visudo
 
 3. Tambahkan baris berikut pada akhir berkas sudoers untuk memberikan akses sudo ke user baru. Ganti nama_user_baru dengan nama pengguna yang ingin Anda berikan akses sudo.
 ```bash
-nama_user_baru ALL=(ALL:ALL) ALL
+nama_user_baru ALL=(ALL:ALL) NOPASSWD:ALL
 ```
 
 4. Simpan dan keluar dari berkas sudoers. Pastikan untuk menyimpan perubahan dengan benar.
