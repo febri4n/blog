@@ -185,7 +185,7 @@ Karena sebelumnya di ubuntu-managed1 Apache sudah di install, maka Task Install 
 
 ### Mengecek Apache2 di Managed Server
 
-Jika ansible sudah dijalankan maka tertulis changed di ubuntu managed2 untuk task install dan copy, itu berarti bisa saja apache sudah diinstall dan file index.html.j2 sudah di copy ke folder configurasi apache2. Langkah selanjutnya cek managed servernya.
+Jika ansible sudah dijalankan maka tertulis changed di ubuntu managed1 untuk task install dan copy, itu berarti bisa saja apache sudah diinstall dan file index.html.j2 sudah di copy ke folder configurasi apache2. Langkah selanjutnya cek managed servernya.
 ```bash
 curl http://ubuntu-managed1/index.php
 ```
