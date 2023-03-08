@@ -72,7 +72,7 @@ vim latihan1.yml
 - name: Install Apache2, MariaDB, PHP dengan Ansible Playbook
   hosts: latihan1ansible
   become: true
-  become_user: febrian
+  become_user: root
   remote_user: febrian
   tasks:
     - name: Install apache2
