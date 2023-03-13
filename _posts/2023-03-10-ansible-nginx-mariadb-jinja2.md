@@ -25,11 +25,11 @@ classes: wide
 ---
 ### Prasyarat
 
-Sebelum masuk ke materi ini, pastikan sudah mengintsall ansible dan menyiapkan setidaknya 2 server 1 sebagai controller dan 1 sebagai managed server yang akan di install Apache. Saya sudah menyiapkan server dengan menggunakan Vagrant, kalian bisa ikuti di materi sebelumnya.
+Sebelum masuk ke materi ini, pastikan sudah mengintsall ansible dan menyiapkan setidaknya 2 server 1 sebagai controller dan 1 sebagai managed server yang akan di install Nginx. Saya sudah menyiapkan server dengan menggunakan Vagrant, kalian bisa ikuti di materi sebelumnya.
 
 #### Membuat Working direktori
 
-Sebelum memulai, pertama buat terlebih dahulu direktori yang akan digunakan sebagai tempat untuk menyimpan beberapa konfigurasi ansible dan konfigurasi apache.
+Sebelum memulai, pertama buat terlebih dahulu direktori yang akan digunakan sebagai tempat untuk menyimpan beberapa konfigurasi ansible.
 ```bash
 febrian@ubuntu-controller:~$ mkdir latihan-ansible-3
 febrian@ubuntu-controller:~$ cd latihan-ansible-3
@@ -192,14 +192,14 @@ ubuntu-managed1            : ok=10   changed=1    unreachable=0    failed=0    s
 
 > Karena saya sudah beberapa kali running playbook ini, maka beberapa task yang seharusnya sekali jalan seperti menambahkan repository akan berubah menjadi changed. Namun karena ada beberapa config ansible playbook yang harus saya perbaiki maka task tersebut yang sebelumnya changed ketika di running kembali akan berubah menjadi ok.
 
-### Mengecek Apache2 di Managed Server
+### Mengecek Nginx di Managed Server
 
-Jika ansible sudah dijalankan maka tertulis changed di ubuntu managed1 untuk task install dan copy, itu berarti bisa saja apache sudah diinstall dan file index.html.j2 sudah di copy ke folder configurasi apache2. Langkah selanjutnya cek managed servernya.
+Jika ansible sudah dijalankan maka tertulis changed atau ok di ubuntu-managed1 untuk task install dan copy. Langkah selanjutnya cek managed servernya. Bisa diikuti dengan mengetikan command dibawah ini.
 ```bash
 curl http://ubuntu-managed1/
 ```
 
-Jika tampil seperti dibawah, maka kita telah berhasil menginstall apache2 menggunakan ansible.
+Jika tampil seperti dibawah, maka kita telah berhasil menginstall nginx menggunakan ansible.
 ```html
 <!DOCTYPE html>
 <html>
@@ -227,4 +227,4 @@ Commercial support is available at
 ```
 Kita juga dapat melakukan port forwarding ubuntu-managed1 untuk melihatnya di laptop host kita dengan membukanya di browser, caranya sudah dituliskan di artikel sebelumnya.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Apache2-MariaDB-Jinja2.png" alt="Praktik: Install Nginx dan Mariadb Menggunakan Jinja2 Template di Playbook">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Nginx-MariaDB-Jinja2.png" alt="Praktik: Install Nginx dan Mariadb Menggunakan Jinja2 Template di Playbook">
