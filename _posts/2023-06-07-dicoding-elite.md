@@ -15,15 +15,14 @@ toc_icon: "cog"
 toc_sticky: true
 categories: 
     - submission
-classes: wide
 ---
 
 #### Technical Test Result
 **Status: Submission Approved**
 
-#### Project: script_test.sh**
+#### Project: script_test.sh
 
-##### Summary Project:
+##### Summary Project
 Command: `sleep 3s | echo -e "\n"` `sleep 1m | echo -e "\n"`
 Command ini tidak memberikan kontribusi yang signifikan terhadap output yang ditampilkan. Command `sleep 3s` digunakan untuk memberikan jeda selama 3 detik sebelum mencetak baris kosong dengan "echo -e "\n"", begitu juga dengan command `sleep 1m`. 
 
@@ -32,8 +31,8 @@ Namun, baris kosong tersebut tidak memberikan informasi tambahan yang berguna da
 Command: `free --mega | sort` `df -hBG | sort` `df -x tmpfs --output=source,pcent | sort`
 Dari setiap command diatas, command `| sort` lebih baik dihapus saja agar hasil yang ditampilkan menjadi humman readable. 
 
-##### Code Reviewer:
-Jika menambahkan pipeline short hasilnya seperti ini:
+##### Code Reviewer
+Jika menambahkan pipeline sort hasilnya seperti ini:
 ```bash
 febrian@linuxmint:~/Documents/Devops-submission$ df -hBG | sort
 /dev/sda1             1G    1G        1G   1% /boot/efi
@@ -68,12 +67,12 @@ contoh: `man free`
 
 #### Project2: history_dicoding.txt
 
-##### Summary Project:
+##### Summary Project
 Diproject kedua ini, untuk membuang perintah yang ada dalam file history_dicoding.txt, kalian dapat menggunakan command `>` di linux.
 - Tanda `>` digunakan untuk mengalihkan output dari perintah ke sebuah file dan menghapus konten file yang ada sebelumnya. 
 - Jika file tidak ada, maka file baru akan dibuat. Jika file sudah ada, maka isinya akan digantikan dengan output perintah yang baru.
 
-##### Code Reviewer:
+##### Code Reviewer
 Kalian perlu memasukan perintah dibawah di script yang kalian buat (scipt_test.sh) atau secara langsung di terminal.
 `> history_dicoding.txt` maka semua teks yang ada di file tersebut akan hilang (kosong). 
 
