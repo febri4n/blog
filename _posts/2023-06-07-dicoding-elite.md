@@ -3,8 +3,8 @@ layout: single
 title:  "Technical Test Result (Dicoding Elite)"
 date: 2023-06-07 11:45:00 +0700
 permalink: /:title
-description: "Artikel ini akan kami arsipkan jika sudah diinfokan baik itu diterima/ditolak."
-excerpt: "Berikut adalah tugas yang diberikan untuk menjadi syarat bergabung menjadi bagian dari Dicoding Elite"
+description: "Berikut adalah tugas yang diberikan untuk menjadi syarat bergabung menjadi bagian dari Dicoding Elite"
+excerpt: "Artikel ini akan kami arsipkan jika sudah diinfokan baik itu diterima/ditolak."
 header:
     overlay_color: "#333"
 #  image: /assets/images/tutorial-install-nodejs.png
@@ -24,9 +24,9 @@ categories:
 
 ##### Summary Project
 Command: `sleep 3s | echo -e "\n"` `sleep 1m | echo -e "\n"`
-Command ini tidak memberikan kontribusi yang signifikan terhadap output yang ditampilkan. Command `sleep 3s` digunakan untuk memberikan jeda selama 3 detik sebelum mencetak baris kosong dengan "echo -e "\n"", begitu juga dengan command `sleep 1m`. 
+Command ini tidak memberikan kontribusi yang signifikan terhadap output yang ditampilkan. Command `sleep 3s` digunakan untuk memberikan jeda selama 3 detik sebelum mencetak baris kosong dengan `echo -e "\n"`, begitu juga dengan command `sleep 1m`. 
 
-Namun, baris kosong tersebut tidak memberikan informasi tambahan yang berguna dalam konteks script ini. Jika tujuannya hanya memberikan jeda sejenak sebelum keluar dari script, maka jeda tersebut tidak diperlukan dan dapat dihapus.
+> Namun, baris kosong tersebut tidak memberikan informasi tambahan yang berguna dalam konteks script ini. Jika tujuannya hanya memberikan jeda sejenak sebelum keluar dari script, maka jeda tersebut tidak diperlukan dan dapat dihapus.
 
 Command: `free --mega | sort` `df -hBG | sort` `df -x tmpfs --output=source,pcent | sort`
 Dari setiap command diatas, command `| sort` lebih baik dihapus saja agar hasil yang ditampilkan menjadi humman readable. 
