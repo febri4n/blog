@@ -101,19 +101,7 @@ Yang terakhir adalah membuat playbooknya, bisa ikuti scriptnya seperti dibawah i
 vi secret-book.yml
 ```
 
-```yml
-- name: create user accounts for all our servers
-  hosts: managed
-  become: true
-
-  vars_files:
-    - secret.yml
-  tasks:
-    - name: Creating user from secret.yml
-      user:
-        name: "{{username}}"
-        password: "{{pw | password_hash('sha512')}}"
-```
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ansible-playbook-secret-book.png" alt="Ansible playbook secret-book.yml">
 
 #### Jalankan playbook
 
