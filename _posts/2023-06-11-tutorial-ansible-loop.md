@@ -216,7 +216,7 @@ ubuntu-managed             : ok=3    changed=2    unreachable=0    failed=0    s
 
 #### Mengecek semua login username dengan sshpass
 
-Pertama install terlebih dahulu sshpass `sudo apt install sspass`
+Pertama install terlebih dahulu sshpass `sudo apt install sshpass`
 
 Kemudian buat script dibawah ini
 
@@ -242,7 +242,7 @@ done
 Setelah itu berikan izin untuk mengeksekusi script dengan command dibawah ini:
 
 ```bash
-chmod +x script.sh
+chmod +x test-user.sh
 ```
 
 Terakhir jalankan script tersebut, jika berhasil akan tampil seperti dibawah
