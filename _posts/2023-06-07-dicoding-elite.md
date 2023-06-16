@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Technical Test Result (Dicoding Elite)"
-date: 2023-06-07 11:45:00 +0700
+date: 2019-06-07 11:45:00 +0700
 permalink: /:title
 description: "Berikut adalah tugas yang diberikan untuk menjadi syarat bergabung menjadi bagian dari Dicoding Elite"
 excerpt: "Artikel ini akan kami arsipkan jika sudah diinfokan baik itu diterima/ditolak."
