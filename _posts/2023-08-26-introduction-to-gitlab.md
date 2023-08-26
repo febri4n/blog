@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Berkenalan dengan Gitlab"
-date: 2023-06-08 12:00:00 +0700
+date: 2023-08-26 06:00:00 +0700
 permalink: /:title
 description: "Menjelaskan beberapa hal terkait dengan Gitlah dan hubungannya dengan DevOps."
 excerpt: "Menjelaskan beberapa hal terkait dengan Gitlah dan hubungannya dengan DevOps."
